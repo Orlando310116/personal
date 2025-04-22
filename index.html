@@ -975,6 +975,38 @@
   <script src="assets/scripts/vlt-plugins.min.js"></script>
   <script src="assets/scripts/vlt-helpers.js"></script>
   <script src="assets/scripts/vlt-controllers.min.js"></script>
+  <!-- Popup Renovación de Imagen -->
+<div id="popup-renovacion" style="display:flex; align-items:center; justify-content:center; position:fixed; top:0; left:0; width:100%; height:100vh; background:rgba(0,0,0,0.75); z-index:9999;">
+  <div style="background:#fff; max-width:500px; padding:2rem; text-align:center; border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.3); position:relative; animation: fadeIn 1s ease-out;">
+    <h2 style="color:#e91e63;">¡Estamos evolucionando!</h2>
+    <p style="font-size:1.1rem; color:#444;">Pronto descubrirás la nueva imagen de nuestra marca,<br> con un enfoque visual más creativo y lleno de diseño gráfico.  
+    <br><strong>Este sitio web se transformará por completo...</strong></p>
+    <button onclick="document.getElementById('popup-renovacion').style.display='none'" style="margin-top:1.5rem; background:#e91e63; color:#fff; border:none; padding:10px 20px; border-radius:30px; cursor:pointer; font-weight:bold;">¡Entendido!</button>
+  </div>
+</div>
+
+<!-- Animación -->
+<style>
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+</style>
+<!--Footer-->
+<footer class="vlt-footer vlt-footer--fixed">
+  ...
+</footer>
+
+<!-- Aquí va el código del popup -->
+<!-- Popup Renovación de Imagen -->
+<div id="popup-renovacion" style="display:flex; ... ></div>
+<style> ... </style>
+
+<!--Libs-->
+<script src="assets/vendors/jquery-3.5.1.min.js"></script>
+...
+</body>
+
 </body>
 
 </html>
